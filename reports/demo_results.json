@@ -13,6 +13,46 @@
   "next_step": "Replace seed claims with recent lab papers; add 50-100 expert-reviewable questions.",
   "professor": "Vivek Srikumar",
   "project_family": "language",
+  "proposed_method": {
+    "algorithm_id": "P109-Srikumar-Nlp",
+    "algorithm_name": "SrikumarEvidenceNlpRepairLoop",
+    "core_mechanism": "prioritizes unsupported claims and citation mismatches for advisor-domain literature audits",
+    "decision_rule": "Rank seed cases by language-specific priority score with Srikumar-aligned focus term 'NLP'.",
+    "mean_priority_score": 0.27,
+    "project_family": "language",
+    "top_cases": [
+      {
+        "action": "audit unsupported/citation-mismatched claim",
+        "case_id": "L3",
+        "priority_score": 0.5,
+        "signals": {
+          "citation_risk": 1.0,
+          "focus_bonus": 0.3333,
+          "unsupported_risk": 0.0
+        }
+      },
+      {
+        "action": "audit unsupported/citation-mismatched claim",
+        "case_id": "L4",
+        "priority_score": 0.46,
+        "signals": {
+          "citation_risk": 0.0,
+          "focus_bonus": 0.0,
+          "unsupported_risk": 1.0
+        }
+      },
+      {
+        "action": "keep as lower-priority grounded example",
+        "case_id": "L1",
+        "priority_score": 0.06,
+        "signals": {
+          "citation_risk": 0.0,
+          "focus_bonus": 0.3333,
+          "unsupported_risk": 0.0
+        }
+      }
+    ]
+  },
   "research_area": "Machine learning, NLP, structured prediction, neuro-symbolic methods",
   "university": "University of Utah",
   "value_add": "citation-faithful RAG and claim-level evaluation harness"

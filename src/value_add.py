@@ -235,6 +235,9 @@ def run_demo() -> Dict[str, Any]:
     rows = load_examples()
     kind = profile["project_family"]
     metrics = METRIC_FUNCTIONS[kind](rows)
+    from proposed_method import run_method
+
+    proposed_method = run_method(rows)
     return {
         "professor": profile["professor"],
         "university": profile["university"],
@@ -242,6 +245,7 @@ def run_demo() -> Dict[str, Any]:
         "project_family": kind,
         "value_add": profile["value_add_artifact"],
         "metrics": metrics,
+        "proposed_method": proposed_method,
         "next_step": profile["next_step"],
     }
 

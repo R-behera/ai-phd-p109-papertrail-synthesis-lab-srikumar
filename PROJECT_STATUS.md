@@ -4,6 +4,8 @@ This repo is a public-ready professor outreach starter with runnable value-add c
 
 ## What Exists Now
 
+- Unique prototype method: `SrikumarEvidenceNlpRepairLoop` in `src/proposed_method.py`.
+
 - Professor-specific research framing.
 - Value-add packet for outreach.
 - Email draft.

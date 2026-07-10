@@ -14,6 +14,18 @@ Start here:
 - `PROJECT_STATUS.md` - clear statement of what exists and what does not exist yet.
 
 
+## Unique Prototype Algorithm
+
+This repo has its own runnable prototype method: **SrikumarEvidenceNlpRepairLoop**.
+
+Run it directly:
+
+```bash
+python src/proposed_method.py
+```
+
+The method ranks the seed cases using a professor-aligned `language` decision rule. See `docs/unique_algorithm.md` for the mechanism and honest limitations.
+
 ## Runnable Value-Add Code
 
 This repo now contains a working starter artifact in `src/value_add.py`.
