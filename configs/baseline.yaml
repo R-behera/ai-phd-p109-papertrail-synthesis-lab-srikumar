@@ -1,0 +1,12 @@
+seed: 2027
+project_stage: scaffold
+dataset:
+  name: TBD
+  split_strategy: temporal_or_domain_shift
+model:
+  baseline: TBD
+  proposed_component: TBD
+evaluation:
+  primary_metric: TBD
+  secondary_metrics: []
+  num_seeds: 3
