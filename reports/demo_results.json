@@ -1,0 +1,19 @@
+{
+  "metrics": {
+    "artifact": "claim-level citation faithfulness audit",
+    "citation_precision": 0.75,
+    "failure_ids": [
+      "L3",
+      "L4"
+    ],
+    "fully_grounded_rate": 0.5,
+    "num_cases": 4,
+    "unsupported_claim_rate": 0.25
+  },
+  "next_step": "Replace seed claims with recent lab papers; add 50-100 expert-reviewable questions.",
+  "professor": "Vivek Srikumar",
+  "project_family": "language",
+  "research_area": "Machine learning, NLP, structured prediction, neuro-symbolic methods",
+  "university": "University of Utah",
+  "value_add": "citation-faithful RAG and claim-level evaluation harness"
+}

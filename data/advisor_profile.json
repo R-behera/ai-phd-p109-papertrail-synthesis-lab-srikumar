@@ -1,0 +1,13 @@
+{
+  "professor": "Vivek Srikumar",
+  "university": "University of Utah",
+  "program": "Kahlert School of Computing PhD",
+  "research_area": "Machine learning, NLP, structured prediction, neuro-symbolic methods",
+  "representative_paper": "OSCaR: Orthogonal Subspace Correction and Rectification of Biases in Word Embeddings; 2021; EMNLP",
+  "paper_link": "https://scholar.google.com/scholar?q=OSCaR%3A+Orthogonal+Subspace+Correction+and+Rectification+of+Biases+in+Word+Embeddings",
+  "project_family": "language",
+  "focus": "NLP",
+  "value_add_artifact": "citation-faithful RAG and claim-level evaluation harness",
+  "next_step": "Replace seed claims with recent lab papers; add 50-100 expert-reviewable questions.",
+  "generated_for": "professor outreach value-add starter"
+}

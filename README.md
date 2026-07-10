@@ -13,6 +13,20 @@ Start here:
 - `docs/one_page_project_plan.md` - one-page project summary.
 - `PROJECT_STATUS.md` - clear statement of what exists and what does not exist yet.
 
+
+## Runnable Value-Add Code
+
+This repo now contains a working starter artifact in `src/value_add.py`.
+
+```bash
+python src/value_add.py --write-report reports/demo_results.json
+python -m unittest discover -s tests
+```
+
+The code runs a `language`-specific audit over `data/value_add_examples.csv` using professor metadata from `data/advisor_profile.json`. The sample data is intentionally small and honest; replace it with real public/lab-relevant data before making research claims.
+
+See `docs/value_add_implementation.md` for the exact value-add path.
+
 ## Research Question
 
 How can a focused, reproducible artifact around **NLP** create useful research infrastructure for a lab working on **Machine learning, NLP, structured prediction, neuro-symbolic methods**?
@@ -41,7 +55,7 @@ Build **a citation-faithful RAG and evaluation harness for advisor-domain papers
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-python -m pytest
+python -m unittest discover -s tests
 ```
 
 ## Repository Map

@@ -1,0 +1,5 @@
+case_id,question,claim,cited_source,retrieved_source,supported,answer_has_citation
+L1,What is a core open question in NLP?,NLP systems need citation-grounded evaluation.,representative-paper,representative-paper,true,true
+L2,Which baseline should be reproduced for NLP?,A simple baseline must be reproduced before adding a new agent.,baseline-note,baseline-note,true,true
+L3,What failure should be tracked for NLP?,Unsupported claims should be counted explicitly.,failure-bank,unrelated-source,true,true
+L4,Can we claim improvement for Vivek Srikumar?,The method already improves all current lab systems.,no-result-yet,no-result-yet,false,true

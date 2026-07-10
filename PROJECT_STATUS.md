@@ -1,6 +1,6 @@
 # Project Status
 
-This repo is an outreach-ready research scaffold.
+This repo is a public-ready professor outreach starter with runnable value-add code.
 
 ## What Exists Now
 
@@ -8,21 +8,18 @@ This repo is an outreach-ready research scaffold.
 - Value-add packet for outreach.
 - Email draft.
 - One-page project plan.
-- Baseline config placeholder.
-- Reproducibility checklist.
-- Smoke test.
+- Runnable Python value-add demo in `src/value_add.py`.
+- Professor metadata in `data/advisor_profile.json`.
+- Seed dataset in `data/value_add_examples.csv`.
+- Tests covering the demo and professor-specific profile.
 
 ## What Does Not Exist Yet
 
-- No completed dataset pipeline.
-- No trained model.
-- No experimental results.
-- No claim of novelty or performance improvement.
+- No completed experiment on real lab data.
+- No trained research model unless you add one later.
+- No verified performance improvement claim.
+- No claim that the sample rows are professor/lab results.
 
 ## Next Honest Step
 
-Before emailing, pick a smaller subset of professors and make 2-3 repos materially stronger with at least one baseline run, literature note, or dataset slice. Use the other repos as planning and fit-mapping references.
-
-## Visibility Note
-
-This repo is private unless you make it public or invite someone. Do not paste a private GitHub URL into a professor email expecting them to open it.
+Run the demo, replace the seed dataset with real public/lab-relevant data, and add a short literature note from one recent professor paper before emailing.
