@@ -16,7 +16,7 @@ The concrete value I think I could add is:
 
 I want to be careful and honest: this is currently a proposal and execution plan, not a finished research result. If the direction is useful to your group, I would be glad to spend the next few months turning it into a reproducible benchmark/tool/report and sharing progress.
 
-Project summary: [make the selected GitHub repo public/shareable, or attach `docs/one_page_project_plan.md`]
+Project summary: https://github.com/R-behera/ai-phd-p109-papertrail-synthesis-lab-srikumar
 
 If you have time, I would be grateful for any guidance on whether this direction fits your lab's current priorities, or whether there is a more useful starter contribution I should attempt first.
 
@@ -27,4 +27,4 @@ Rajendra Behera
 
 Replace one sentence above with a specific note from one recent paper, talk, or lab page. The CSV row is a starting point; verify current work before sending.
 
-Private repo URL for your own reference: https://github.com/R-behera/ai-phd-p109-papertrail-synthesis-lab-srikumar
+Public repo URL: https://github.com/R-behera/ai-phd-p109-papertrail-synthesis-lab-srikumar

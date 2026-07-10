@@ -71,4 +71,4 @@ python -m unittest discover -s tests
 
 ## Status
 
-Proposal scaffold only. Before external use, verify the professor's current lab page and make a selected repo public or shareable.
+Proposal scaffold plus runnable starter code. Before external use, verify the professor's current lab page and personalize the outreach note.

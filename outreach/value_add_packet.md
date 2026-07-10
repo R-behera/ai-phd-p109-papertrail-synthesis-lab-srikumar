@@ -69,4 +69,4 @@ Do **not** claim this is finished. The honest claim is:
 
 ## Sharing Note
 
-This GitHub repository is private unless you change visibility. Before emailing, either make this selected repo public, invite the professor, or attach/export the one-page plan instead of sending a private link.
+This GitHub repository is public. Before emailing, verify the professor's current work, personalize the email, and be ready to explain exactly what is implemented versus planned.
